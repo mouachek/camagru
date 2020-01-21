@@ -1,0 +1,48 @@
+body {
+  font-family: "Arial";
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  width: 100%;
+  background-color: #42075b;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav>ul {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav>ul>li>a {
+  padding: 20px 30px;
+  color: #FFF;
+}
+
+.onglet {
+  display: none;
+}
+
+nav>ul>li:hover a {
+  padding: 15px 30px 20px 30px;
+}
+
+.home:hover {
+  border-top: 5px solid rgb(255, 0, 102);
+  background-color: rgba(82, 154, 73, 0.15);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
